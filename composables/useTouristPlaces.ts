@@ -42,8 +42,8 @@ export const useTouristPlaces = () => {
         'https://scontent.fush1-1.fna.fbcdn.net/v/t1.6435-9/148545148_2169277916539395_570600586181654206_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGh-g3K1RvIo2MlpK3h7UPych0LcRS5F55yHQtxFLkXniepUO3wKGAwn8j13KagLdw&_nc_ohc=1n94P_OSn8gQ7kNvgHnLF2E&_nc_zt=23&_nc_ht=scontent.fush1-1.fna&_nc_gid=A37f9BDAzdsENHWyYg1hPor&oh=00_AYA62ctIMmWVu1Xzqhwlm85Bg40fsL5gyp8c4ZMsxNFmMg&oe=676AB3E7'
       ],
       ubicacion: {
-        lat: -54.8302,
-        lng: -68.3158
+        lat:-54.817543, 
+        lng:-68.349332
       }
     },
     {
