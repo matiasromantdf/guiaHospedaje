@@ -13,6 +13,6 @@
 <script setup>
 const { lugares } = useTouristPlaces()
 const lugaresParaVisitar = computed(() =>
-  lugares.value.filter(lugar => lugar.categoria === 'Naturaleza' || lugar.categoria === 'Aventura' || lugar.categoria === 'Marítimo')
+  lugares.value.filter(lugar => lugar.categoria === 'Naturaleza')
 )
 </script>
