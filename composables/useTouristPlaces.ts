@@ -48,32 +48,42 @@ export const useTouristPlaces = () => {
     },
     {
       id: 100,
-      nombre: 'Shopping Paseo del Fuego',
-      descripcion: 'El centro comercial más grande de Ushuaia, con tiendas libres de impuestos, restaurantes y entretenimiento.',
+      nombre: 'Kiosco cerca',
+      descripcion: '',
       categoria: 'Compras',
       imagenes: [
-        'https://images.unsplash.com/photo-1619999191685-4379e991d7e0',
-        'https://images.unsplash.com/photo-1619999191685-4379e991d7e2',
-        'https://images.unsplash.com/photo-1619999191685-4379e991d7e1'
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2r4WaX-1T4YSgXHxnzZTJneoLGSGH8zOTaw&s'
       ],
       ubicacion: {
-        lat: -54.8105,
-        lng: -68.3247
+        lat:-54.82550118896304, 
+        lng:-68.37634190009886
       }
     },
     {
       id: 101,
-      nombre: 'Calle San Martín',
-      descripcion: 'La principal calle comercial de Ushuaia, con tiendas de artesanías, chocolates, ropa de montaña y souvenirs.',
+      nombre: 'Supermercado La Anonima',
+      descripcion: 'La sucursal más cercana del supermercado "La Anonima", con una amplia variedad de productos y servicios, carnes, verduras, panadería, etc. A 15 min caminando desde nuestro hospedaje.',
       categoria: 'Compras',
       imagenes: [
-        'https://images.unsplash.com/photo-1619999191685-4379e991d7e3',
-        'https://images.unsplash.com/photo-1619999191685-4379e991d7e4',
-        'https://images.unsplash.com/photo-1619999191685-4379e991d7e5'
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaowdMTWz85gVNjKoBND3oqDQbGZBNeF3CnQ&s',
+        'https://lh5.googleusercontent.com/p/AF1QipOevfG9s2jn1LdA8Y5fdeQ2ah1jSnsCCRqajigk'
       ],
       ubicacion: {
         lat: -54.8019,
         lng: -68.3029
+      }
+    },
+     {
+      id: 101,
+      nombre: 'Autoservicio "Bella Vista',
+      descripcion: 'Pequeño autoservicio ubicado a 15 minutos de nuestro hospedaje, podés encontrar productos de almacén, bebidas, golosinas, etc.',
+      categoria: 'Compras',
+      imagenes: [
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6GjZ31vR95N4i3DbcLJgfUX6urxfm_VvRMw&s',
+      ],
+      ubicacion: {
+      lat:-54.82008831828585, 
+      lng:-68.35465282732333
       }
     }
   ])
