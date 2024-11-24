@@ -1,5 +1,5 @@
 <template>
-  <div :id="`carousel-${id}`" class="carousel slide" data-bs-ride="carousel">
+  <div :id="`carousel-${id}`" class="carousel slide mt-3" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div v-for="(imagen, index) in imagenes" :key="index" class="carousel-item text-center"
         :class="{ active: index === 0 }">
