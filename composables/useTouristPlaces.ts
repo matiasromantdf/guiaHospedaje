@@ -47,9 +47,47 @@ export const useTouristPlaces = () => {
       }
     },
     {
+      id: 4,
+      nombre: 'Cascada Los Amigos',
+      descripcion: 'Sendero de ida y vuelta de aproximadamente 8,5 km con un desnivel de 444 m, ideal para quienes buscan una aventura en la naturaleza. El recorrido parte cerca del Hotel Arakur y tarda entre 3 y 4 horas en completarse. Incluye tramos llanos, ascensos empinados, cruces de ríos con puentes de troncos y zonas con barro, por lo que se recomienda calzado adecuado.',
+      categoria: 'Naturaleza',
+      imagenes: ['https://turismoushuaia.com/wp-content/uploads/2022/03/cascada-de-los-amigos.png','https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/1d/eb/db/capti_r.jpg?w=1000&h=600&s=1'],
+      ubicacion: {
+        lat: -54.774007,
+        lng: -68.260720
+      }
+    },
+    {
+      id: 5,
+      nombre: 'Bici Ushuaia',
+      descripcion: 'Alquiler de bicicletas eléctricas. Podés registrarte en la web o descargar la app para reservar una bici y recorrer la ciudad de forma sustentable. Una excelente opción para explorar Ushuaia sin contaminar.',
+      categoria: 'Naturaleza',
+      link: 'https://www.ushuaia.gob.ar/bici-ushuaia',
+      imagenes: ['https://www.ushuaia.gob.ar/documents/18/693957/plano-bici/f396b83c-166c-4829-bbfe-a10aba7fec44?t=1757937687973'],
+      ubicacion: {
+        lat: -54.8019,
+        lng: -68.3029
+      }
+    },
+    {
+      id: 6,
+      nombre: 'Tren del Fin del Mundo',
+      descripcion: 'Recorrido turístico en un tren histórico que atraviesa bosques, turbales y paisajes únicos de Ushuaia, reviviendo la ruta original de los antiguos presos de la ciudad.',
+      categoria: 'Naturaleza',
+      link: 'https://www.trendelfindelmundo.com.ar/',
+      imagenes: [
+        'https://www.trendelfindelmundo.com.ar/images/slide1.jpg',
+        'https://infoexpresshub.com/wp-content/uploads/2025/04/tren-del-fin-del-mundo.webp'
+      ],
+      ubicacion: {
+        lat: -54.8096,
+        lng: -68.3576
+      }
+    },
+    {
       id: 100,
       nombre: 'Kiosco cerca',
-      descripcion: '',
+      descripcion: 'Pequeño kiosco ubicado cerca de nuestro hospedaje, ideal para comprar golosinas, bebidas y otros productos de conveniencia.',
       categoria: 'Compras',
       imagenes: [
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2r4WaX-1T4YSgXHxnzZTJneoLGSGH8zOTaw&s'

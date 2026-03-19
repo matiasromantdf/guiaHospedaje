@@ -9,14 +9,16 @@
             style="height: 250px; object-fit: cover;">
           <div class="card-body">
             <h2 class="card-title h4">Autobus urbano</h2>
-            <p class="card-text">Red de autobuses que conecta los principales puntos de la ciudad.</p>
+            <p class="card-text">Red de autobuses que conecta los principales puntos de la ciudad. Frente al alojamiento
+              se encuentra una parada de la línea "D"</p>
+            <p class="card-text">Para abonar los pasajes se| utiliza una tarjeta
+              recargable llamada SUBE</p>
             <div class="mt-3">
               <h3 class="h5">Horarios:</h3>
               <p>de 6:00 am hasta 24:00</p>
               <h3 class="h5">Tarifas:</h3>
               <p>alrededor de 1 usd</p>
-              <a href="https://moovitapp.com/index/es-419/transporte_p%C3%BAblico-lines-Ushuaia-3814-1249573"
-                class="btn btn-primary">VER RECORRIDOS</a>
+              <a href="https://www.ushuaia.gob.ar/mi-bondi" class="btn btn-primary">VER MÁS</a>
             </div>
           </div>
         </div>
@@ -40,7 +42,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 mb-4">
+      <!-- <div class="col-md-6 mb-4">
         <div class="card h-100 shadow">
           <img src="https://www.cronoshare.com/blog/wp-content/uploads/2017/05/ser-conductor-privado-2.jpg"
             style="height: 250px; object-fit: cover;">
@@ -71,8 +73,8 @@
                 </svg></a>
             </div>
           </div>
-        </div>
-      </div>
+        </div> 
+      </div>-->
 
     </div>
 
@@ -83,11 +85,11 @@
 
 </script>
 <style>
-svg {
-  width: 20px;
-  height: 20px;
-  fill: white;
-  margin-left: 5px;
-  margin-bottom: 3px;
-}
+  svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+    margin-left: 5px;
+    margin-bottom: 3px;
+  }
 </style>

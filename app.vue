@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div class="container">
         <NuxtLink class="navbar-brand" to="/">Ushuaia</NuxtLink>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -26,28 +26,28 @@
     </main>
     <footer class="bg-dark text-white py-4 mt-5">
       <div class="container text-center">
-        <p>© 2024 Ushuaia Turismo - Descubre el fin del mundo</p>
+        <p>© {{ new Date().getFullYear() }} Ushuaia Turismo - Descubre el fin del mundo</p>
       </div>
     </footer>
   </div>
 </template>
 
 <style>
-body {
-  font-family: 'Lato', sans-serif;
-}
+  body {
+    font-family: 'Lato', sans-serif;
+  }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Montserrat', sans-serif;
-}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Montserrat', sans-serif;
+  }
 
-.nav-link.router-link-active {
-  color: white !important;
-  font-weight: bold;
-}
+  .nav-link.router-link-active {
+    color: white !important;
+    font-weight: bold;
+  }
 </style>
